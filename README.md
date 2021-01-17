@@ -4,7 +4,6 @@ A Github action to run your Laravel project's PHPUnit test suite running with My
 
 ## Use Example
 
-´´´
 name: laravel-phphunit
 
 on:
