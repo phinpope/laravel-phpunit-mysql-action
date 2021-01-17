@@ -34,6 +34,5 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: leonus96/laravel-phpunit-mysql-action@master
-´´´
 
 Note: The mysql credentials must match your repository env.example
