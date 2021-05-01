@@ -14,7 +14,7 @@ composer install --no-ansi --no-interaction --no-scripts --no-suggest --no-progr
         chown -R www-data ../storage
         cd ..
 cp .env.ci .env
-
+touch database/reporting.sqlite
 php artisan key:generate
 
 php artisan migrate:fresh --seed
