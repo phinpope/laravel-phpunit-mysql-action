@@ -13,7 +13,7 @@ composer install --no-ansi --no-interaction --no-scripts --no-suggest --no-progr
         chgrp -R www-data ../storage
         chown -R www-data ../storage
         cd ..
-cp .env.ci .env
+#cp .env.ci .env
 touch database/reporting.sqlite
 php artisan key:generate
 
