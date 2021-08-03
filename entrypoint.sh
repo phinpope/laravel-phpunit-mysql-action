@@ -13,7 +13,7 @@ mkdir framework
 chgrp -R www-data ../storage
 chown -R www-data ../storage
 cd ..
-echo ${{ secrets.STAGING_ENV_FILE }} > .env
+echo ${{ ENV_FILE }} > .env
 #cp .env.ci .env
 touch database/reporting.sqlite
 php artisan key:generate
